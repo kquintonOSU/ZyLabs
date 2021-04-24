@@ -10,7 +10,7 @@ the output is:
 */
 
 #include <iostream>
-//#include <cmath>
+#include <cmath>
 using namespace std;
 
 int main() {
@@ -36,7 +36,7 @@ int main() {
 
 
 
-//   printf("%d\n", min(a,min(b,c))); uses math function via cmath library which is outside scope of this lab
+//   printf("%d\n", min(a,min(b,c))); above code can be condensed to this line to print minimum number
 
    return 0;
 }
